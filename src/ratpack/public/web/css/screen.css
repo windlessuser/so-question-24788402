@@ -1,0 +1,84 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 6, ../sass/screen.scss */
+core-header-panel {
+  height: 100%;
+  overflow: auto;
+  padding: 50px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 13, ../sass/screen.scss */
+core-toolbar {
+  background: #03a9f4;
+  color: white;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* line 19, ../sass/screen.scss */
+.core-header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  padding: 0 10px;
+  background-color: #1a237e;
+  color: #FFF;
+  transition: height 0.2s;
+}
+
+/* line 29, ../sass/screen.scss */
+paper-tabs, core-toolbar {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+/* line 34, ../sass/screen.scss */
+paper-tab::shadow #ink {
+  color: #b2ebf2;
+}
+
+/* line 38, ../sass/screen.scss */
+[ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+/* line 42, ../sass/screen.scss */
+[drawer] {
+  background: #424242;
+  color: #cfd8dc;
+}
+/* line 45, ../sass/screen.scss */
+[drawer] a {
+  color: #42bd41;
+}
+
+/* line 50, ../sass/screen.scss */
+div [main] {
+  background: #eeeeee;
+}
+
+/* line 54, ../sass/screen.scss */
+.getRate {
+  background: #4285f4;
+  color: #fff;
+}
+
+/* line 59, ../sass/screen.scss */
+.getRate:hover {
+  background: #2a56c6;
+}
+
+/* line 63, ../sass/screen.scss */
+.getRate::shadow #ripple {
+  color: #2a56c6;
+}
+
+/* line 67, ../sass/screen.scss */
+.thumbnail {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}

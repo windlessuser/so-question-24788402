@@ -1,0 +1,31 @@
+name: gosmarttaxi
+dependencies:
+  angular: any
+  angular_node_bind: any
+  browser: any
+  polymer: ">=0.11.0 <0.12.0"
+  core_elements: ">=0.0.6 <0.1.0"
+  paper_elements: any
+  shadow_dom: any
+  hammock: ">=0.2.2 <0.3.0"
+  google_oauth2_client: '>=0.3.4'
+  js: any
+  google_maps: ">=2.0.0 <3.0.0"
+  js_wrapping: ">=0.1.1 <0.2.0"
+transformers:
+- angular:
+     html_files:
+         - web/index.html
+         - web/view/login.html
+         - web/view/commute.html
+- polymer:
+    entry_points:
+        - web/index.html
+        - web/view/login.html
+        - web/view/commute.html
+dependency_overrides:
+  polymer: ">=0.12.0-dev <0.12.0"
+  browser: any
+  web_components: 0.4.0
+  analyzer: ">=0.15.6 <0.16.0"
+  html5lib: ">=0.11.0 <0.12.0"

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet">
+    <link href="css/screen.css" rel="stylesheet">
+
+    <title>SmartTaxi</title>
+
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+
+    <link rel="import" href="packages/core_elements/core_header_panel.html">
+    <link rel="import" href="packages/core_elements/core_toolbar.html">
+    <link rel="import" href="packages/core_elements/core_drawer_panel.html">
+    <link rel="import" href="packages/core_elements/core_splitter.html">
+    <link rel="import" href="packages/core_elements/core_collapse.html">
+    <link rel="import" href="packages/core_elements/core_overlay.html">
+    <link rel="import" href="packages/core_elements/core_localstorage_dart.html">
+    <link rel="import" href="packages/paper_elements/paper_button.html">
+    <link rel="import" href="packages/paper_elements/paper_dialog.html">
+    <link rel="import" href="packages/paper_elements/paper_input.html">
+    <link rel="import" href="packages/paper_elements/paper_progress.html">
+    <link rel="import" href="packages/paper_elements/paper_fab.html">
+    <link rel="import" href="packages/paper_elements/paper_shadow.html">
+    <link rel="import" href="packages/paper_elements/paper_tabs.html">
+    <link rel="import" href="packages/paper_elements/paper_tab.html">
+
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+</head>
+
+<body touch-action="auto" fullbleed layout vertical ng-app ng-cloak>
+
+<ng-view></ng-view>
+<div id="map-canvas"></div>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="application/dart" src="main.dart"></script>
+<!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+<script src="packages/browser/dart.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/flatui-checkbox.js"></script>
+<script src="js/flatui-fileinput.js"></script>
+<script src="js/flatui-radio.js"></script>
+<script src="js/holder.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/typeahead.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+</body>
+</html>

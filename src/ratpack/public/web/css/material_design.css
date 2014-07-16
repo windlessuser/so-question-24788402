@@ -1,0 +1,438 @@
+@import url(../css/animate.css);
+@import url(../css/bootstrap.css);
+@import url(../css/flat-ui.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Bold.ttf");
+  font-style: Bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/roboto/Roboto-Light.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/roboto/Roboto-LightItalic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url("../fonts/roboto/Roboto-Medium.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url("../fonts/roboto/Roboto-MediumItalic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/roboto/Roboto-Black.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/roboto/Roboto-BlackItalic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/roboto/Roboto-Thin.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/roboto/Roboto-ThinItalic.ttf");
+  font-style: italic;
+}
+
+/* line 116, ../sass/material_design.scss */
+* {
+  font-family: "Roboto";
+}
+
+/* line 120, ../sass/material_design.scss */
+.display4 {
+  font-family: "Roboto Light";
+  opacity: 0.54;
+}
+@media (max-resolution: 120dpi) {
+  /* line 120, ../sass/material_design.scss */
+  .display4 {
+    font-size: 42px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 120, ../sass/material_design.scss */
+  .display4 {
+    font-size: 56px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 120, ../sass/material_design.scss */
+  .display4 {
+    font-size: 84px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 120, ../sass/material_design.scss */
+  .display4 {
+    font-size: 112px;
+  }
+}
+
+/* line 126, ../sass/material_design.scss */
+.display3 {
+  font-family: "Roboto";
+  opacity: 0.54;
+}
+@media (max-resolution: 120dpi) {
+  /* line 126, ../sass/material_design.scss */
+  .display3 {
+    font-size: 21px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 126, ../sass/material_design.scss */
+  .display3 {
+    font-size: 28px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 126, ../sass/material_design.scss */
+  .display3 {
+    font-size: 42px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 126, ../sass/material_design.scss */
+  .display3 {
+    font-size: 56px;
+  }
+}
+
+/* line 132, ../sass/material_design.scss */
+.display2 {
+  line-height: 48pt;
+  font-family: "Roboto";
+  opacity: 0.54;
+}
+@media (max-resolution: 120dpi) {
+  /* line 132, ../sass/material_design.scss */
+  .display2 {
+    font-size: 16.875px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 132, ../sass/material_design.scss */
+  .display2 {
+    font-size: 22.5px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 132, ../sass/material_design.scss */
+  .display2 {
+    font-size: 33.75px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 132, ../sass/material_design.scss */
+  .display2 {
+    font-size: 45px;
+  }
+}
+
+/* line 139, ../sass/material_design.scss */
+.display1 {
+  line-height: 40pt;
+  font-family: "Roboto";
+  opacity: 0.54;
+}
+@media (max-resolution: 120dpi) {
+  /* line 139, ../sass/material_design.scss */
+  .display1 {
+    font-size: 12.75px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 139, ../sass/material_design.scss */
+  .display1 {
+    font-size: 17px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 139, ../sass/material_design.scss */
+  .display1 {
+    font-size: 25.5px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 139, ../sass/material_design.scss */
+  .display1 {
+    font-size: 34px;
+  }
+}
+
+/* line 146, ../sass/material_design.scss */
+.headline {
+  line-height: 32pt;
+  font-family: "Roboto";
+  opacity: 0.87;
+}
+@media (max-resolution: 120dpi) {
+  /* line 146, ../sass/material_design.scss */
+  .headline {
+    font-size: 9px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 146, ../sass/material_design.scss */
+  .headline {
+    font-size: 12px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 146, ../sass/material_design.scss */
+  .headline {
+    font-size: 18px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 146, ../sass/material_design.scss */
+  .headline {
+    font-size: 24px;
+  }
+}
+
+/* line 153, ../sass/material_design.scss */
+.title {
+  font-family: "Roboto Medium";
+  opacity: 0.87;
+}
+@media (max-resolution: 120dpi) {
+  /* line 153, ../sass/material_design.scss */
+  .title {
+    font-size: 7.5px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 153, ../sass/material_design.scss */
+  .title {
+    font-size: 10px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 153, ../sass/material_design.scss */
+  .title {
+    font-size: 15px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 153, ../sass/material_design.scss */
+  .title {
+    font-size: 20px;
+  }
+}
+
+/* line 160, ../sass/material_design.scss */
+.subhead {
+  line-height: 26pt;
+  font-family: "Roboto";
+  opacity: 0.87;
+}
+@media (max-resolution: 120dpi) {
+  /* line 160, ../sass/material_design.scss */
+  .subhead {
+    font-size: 6px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 160, ../sass/material_design.scss */
+  .subhead {
+    font-size: 8px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 160, ../sass/material_design.scss */
+  .subhead {
+    font-size: 12px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 160, ../sass/material_design.scss */
+  .subhead {
+    font-size: 16px;
+  }
+}
+
+/* line 167, ../sass/material_design.scss */
+.body2 {
+  line-height: 24pt;
+  font-family: "Roboto Medium";
+  opacity: 0.87;
+}
+@media (max-resolution: 120dpi) {
+  /* line 167, ../sass/material_design.scss */
+  .body2 {
+    font-size: 5.25px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 167, ../sass/material_design.scss */
+  .body2 {
+    font-size: 7px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 167, ../sass/material_design.scss */
+  .body2 {
+    font-size: 10.5px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 167, ../sass/material_design.scss */
+  .body2 {
+    font-size: 14px;
+  }
+}
+
+/* line 174, ../sass/material_design.scss */
+.body1 {
+  line-height: 20pt;
+  font-family: "Roboto";
+  opacity: 0.87;
+}
+@media (max-resolution: 120dpi) {
+  /* line 174, ../sass/material_design.scss */
+  .body1 {
+    font-size: 5.25px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 174, ../sass/material_design.scss */
+  .body1 {
+    font-size: 7px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 174, ../sass/material_design.scss */
+  .body1 {
+    font-size: 10.5px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 174, ../sass/material_design.scss */
+  .body1 {
+    font-size: 14px;
+  }
+}
+
+/* line 181, ../sass/material_design.scss */
+.caption {
+  font-family: "Roboto";
+  opacity: 0.54;
+}
+@media (max-resolution: 120dpi) {
+  /* line 181, ../sass/material_design.scss */
+  .caption {
+    font-size: 4.5px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 181, ../sass/material_design.scss */
+  .caption {
+    font-size: 6px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 181, ../sass/material_design.scss */
+  .caption {
+    font-size: 9px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 181, ../sass/material_design.scss */
+  .caption {
+    font-size: 12px;
+  }
+}
+
+/* line 187, ../sass/material_design.scss */
+.menu, .btn {
+  font-family: "Roboto Medium";
+  opacity: 0.87;
+}
+@media (max-resolution: 120dpi) {
+  /* line 187, ../sass/material_design.scss */
+  .menu, .btn {
+    font-size: 5.25px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 187, ../sass/material_design.scss */
+  .menu, .btn {
+    font-size: 7px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 187, ../sass/material_design.scss */
+  .menu, .btn {
+    font-size: 10.5px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 187, ../sass/material_design.scss */
+  .menu, .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-resolution: 120dpi) {
+  /* line 193, ../sass/material_design.scss */
+  .touch-target {
+    min-width: 18px;
+    min-height: 18px;
+  }
+}
+@media (max-resolution: 160dpi) {
+  /* line 193, ../sass/material_design.scss */
+  .touch-target {
+    min-width: 24px;
+    min-height: 24px;
+  }
+}
+@media (max-resolution: 240dpi) {
+  /* line 193, ../sass/material_design.scss */
+  .touch-target {
+    min-width: 36px;
+    min-height: 36px;
+  }
+}
+@media (max-resolution: 320dpi) {
+  /* line 193, ../sass/material_design.scss */
+  .touch-target {
+    min-width: 48px;
+    min-height: 48px;
+  }
+}

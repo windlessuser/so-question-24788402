@@ -1,0 +1,37 @@
+<div commute-control>
+    <core-drawer-panel horizontal class="left-drawer">
+        <div drawer class="container-fluid">
+            <img src="{{commute.img}}" alt="Your Profile image" class="img-responsive img-circle"/>
+            <br>
+
+            <p> Hello {{commute.user.first_name}}!!</p>
+            <a href="tel:18766328096"><span class="glyphicon glyphicon-earphone">Customer Care</span></a>
+            <paper-shadow z="3"></paper-shadow>
+        </div>
+        <core-splitter></core-splitter>
+        <div main flex>
+            <core-header-panel mode="waterfall">
+                <div class="core-header">
+                    <p id="tabTitle">ST: Call a taxi</p>
+                </div>
+                <div>
+                    <core-toolbar>
+                        <paper-tabs selected="0" role="tablist" flex="">
+                            <paper-tab target="#callTaxi" role="tab"><b>Call a taxi</b></paper-tab>
+                            <paper-tab target="#routes" role="tab"><b>Routes</b></paper-tab>
+                            <paper-tab target="#history" role="tab"><b>History</b></paper-tab>
+                        </paper-tabs>
+                    </core-toolbar>
+                </div>
+                <div id="callTaxi" class="row-fluid">
+                    <div class="thumbnail col-md-6  col-xl-6">
+                        <paper-input id="pickUp" floatingLabel="true" label="Where are you?"></paper-input>
+                        <paper-input id="dropOff" floatingLabel="true" label="Where are you going?"></paper-input>
+                        <paper-button label="Get Rate" raisedButton class="getRate"></paper-button>
+                        <paper-shadow z="1"></paper-shadow>
+                    </div>
+                </div>
+            </core-header-panel>
+        </div>
+    </core-drawer-panel>
+</div>
